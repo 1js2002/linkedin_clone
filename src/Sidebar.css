@@ -1,0 +1,25 @@
+.sidebar{
+    top: 80px;
+    position: sticky;
+    flex: 0.2;
+    border-radius: 30px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar__avatar{
+    margin-bottom: 1px;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #fff;
+    padding-bottom: 10px;
+    overflow: hidden;
+  }
+  
